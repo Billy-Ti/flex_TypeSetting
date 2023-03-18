@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1286px;
+    margin: 0 auto;
+    font-family: "微軟正黑體", sans-serif;
+}
+
+.firstTypeSetting {
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 44px 23px 24px;
+    background-color: #e7eeea;
+    margin-bottom: 45px;
+    border-radius: 5px;
+}
+
+.firstTypeSetting li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 370px;
+}
+
+.firstTypeSetting_Content h1,
+.secondTypeSetting_Content h2,
+.thirdTypeSetting_Content h2 {
+    font-size: 18px;
+    padding-top: 10px;
+    margin: 0 25px 15px 0;
+    font-weight: bold;
+    color: #37523d;
+}
+
+.firstTypeSetting_Content,
+.secondTypeSetting_Content,
+.thirdTypeSetting_Content {
+    padding-left: 10px;
+}
+
+.firstTypeSetting_Content p,
+.secondTypeSetting_Content p,
+.thirdTypeSetting_Content p {
+    margin-bottom: 10px;
+    font-size: 14.5px;
+    line-height: 1.5;
+    color: #37523d;
+}
+
+.firstTypeSetting img {
+    width: 55px;
+}
+
+.secondTypeSetting {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: #e7eeea;
+    padding: 18px 35px 20px 35px;
+    margin-bottom: 45px;
+    border-radius: 5px;
+}
+
+.secondTypeSetting li {
+    width: 385px;
+}
+
+.thirdTypeSetting {
+    background: #e7eeea;
+    border-radius: 5px;
+}
+
+.thirdTypeSettingItem1 {
+    display: flex;
+    align-items: center;
+    padding: 18px 0 0 30px;
+}
+
+.thirdTypeSettingItem2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0 34px 30px 0;
+}

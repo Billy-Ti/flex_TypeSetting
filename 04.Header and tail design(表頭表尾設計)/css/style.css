@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: "微軟正黑體", sans-serif;
+}
+
+.header {
+    display: flex;
+    background: #e7eeea;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 50px;
+    margin-bottom: 80px;
+}
+
+.menu {
+    display: flex;
+    text-align: center;
+}
+
+.menu li {
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+.menu li a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #37523d;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.content h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.content p {
+    margin-bottom: 18px;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+.content img {
+    margin-bottom: 23px;
+}
+
+.footer {
+    margin-top: 79px;
+    display: flex;
+    justify-content: center;
+    background: #37523d;
+}
+
+.footer li {
+    padding: 24px 0;
+    width: 70px;
+}
+
+.footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    text-decoration: underline;
+}
